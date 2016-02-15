@@ -9,16 +9,16 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 typedef NS_ENUM(NSUInteger,ShowImagePoint) {
-    ShowImageAtUp,
-    ShowImageAtLeft,
-    ShowImageAtRight,
-    ShowImageAtBelow,
+    ShowImageAtUp,                                // 图片显示在上面
+    ShowImageAtLeft,                              // 图片显示在左边
+    ShowImageAtRight,                             // 图片显示在右边
+    ShowImageAtBelow,                             // 图片显示在下面
 };
 
 typedef NS_ENUM(NSUInteger,ShowToastPoint) {
-    ShowToastAtTop = 101,
-    ShowToastAtModdle,
-    ShowToastAtBottom,
+    ShowToastAtTop = 101,                        // Toast 显示在屏幕的上面
+    ShowToastAtModdle,                           // Toast 显示在屏幕的中间
+    ShowToastAtBottom,                           // Toast 显示在屏幕的下面
 };
 
 @interface ToastObject : NSObject
