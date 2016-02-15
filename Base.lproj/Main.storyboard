@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A50-zt-2vS">
+                                <rect key="frame" x="20" y="43" width="60" height="30"/>
+                                <state key="normal" title="头部显示"/>
+                                <connections>
+                                    <action selector="showInTopMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cSF-Oa-yOL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u8t-YU-ib1">
+                                <rect key="frame" x="120" y="43" width="117" height="30"/>
+                                <state key="normal" title="头部显示有图片"/>
+                                <connections>
+                                    <action selector="showInTop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2jo-Y1-IZT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lsu-Fi-v3M">
+                                <rect key="frame" x="125" y="90" width="117" height="30"/>
+                                <state key="normal" title="中间显示有图片"/>
+                                <connections>
+                                    <action selector="showInMiddle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZcL-WT-Cof"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mKC-yd-Uth">
+                                <rect key="frame" x="20" y="90" width="60" height="30"/>
+                                <state key="normal" title="中间显示"/>
+                                <connections>
+                                    <action selector="showInMiddleMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vnk-lY-hfL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NS2-8m-7IT">
+                                <rect key="frame" x="20" y="144" width="60" height="30"/>
+                                <state key="normal" title="底部显示"/>
+                                <connections>
+                                    <action selector="showInBottomMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yl2-MX-7TI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FoB-RV-HmM">
+                                <rect key="frame" x="20" y="196" width="90" height="30"/>
+                                <state key="normal" title="指定位置显示"/>
+                                <connections>
+                                    <action selector="showInRectMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qMA-77-FI8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uve-5K-Fu9">
+                                <rect key="frame" x="125" y="144" width="117" height="30"/>
+                                <state key="normal" title="底部显示有图片"/>
+                                <connections>
+                                    <action selector="showInBottom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rlw-Ew-EYt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="162" y="406"/>
+        </scene>
+    </scenes>
+</document>
